@@ -1,0 +1,90 @@
+     
+       .header {
+        background-color: #00e1ff;
+        color: #ffffff;
+        padding: 5%;
+        }
+              .topright {
+                position: absolute;
+                top: 8px;
+                right: 16px;
+                font-size: 2vw;
+              }
+      .tourhead
+      {
+              
+                top: 8px;
+                font-size: 2vw;
+                text-align:center;
+              }
+              img { 
+                height: 40%;
+                width: auto;
+      
+              }
+      
+              div.scroll-container {
+        background-color: #00ff0d;
+        overflow: auto;
+        white-space: nowrap;
+        padding: 1%;
+      }
+      .japan {
+        width: 49%;
+        height: 80%;
+        float: left;
+        border: 1px solid red;
+        background-color: rgb(255, 255, 255);
+      }
+      
+      .germany {
+        width: 49%;
+        height: 80%;
+        float: left;
+        border: 1px solid rgb(0, 47, 255);
+        background-color:rgb(227, 108, 5);
+      
+      }
+      ol{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1.5vw;
+      }
+      li{
+        font-family: Tahoma, Verdana, sans-serif;
+        font-size: 1.5vw;
+      }
+      div.scroll-container img {
+        padding: 1px;
+        background-color: aliceblue;
+      }
+      a:link, a:visited {
+        background-color: #00fff2;
+        color: white;
+        padding: 2.5% 25%;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+      }
+      
+      a:hover, a:active {
+        background-color: rgb(0, 38, 255);
+      }
+      .footer-left {
+         position: fixed;
+         left: 0;
+         bottom: 0;
+         float: right;
+         width: 50%;
+         color: white;
+         text-align: center;
+      }
+      .footer-right {
+         position: fixed;
+         right: 0;
+         bottom: 0;
+         float: right;
+         width: 50%;
+         color: white;
+         text-align: center;
+      }
+      

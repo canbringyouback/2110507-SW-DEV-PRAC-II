@@ -1,0 +1,34 @@
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="register.css">
+    <script src="register.js"></script> 
+</head>
+<body>
+  
+    <div class="footer"> <h1>6531341821 Vasu Partipong</h1></div>
+   <div>
+    <form>
+      <label for="tour-package">แพคเกจทัวร์</label>
+    <select name="tour-package" id="tour-package">
+        <option value="japan">ญี่ปุ่น</option>
+        <option value="germany">เยอรมัน</option>
+      </select>
+      <label for="group-size">ประเภทกลุ่มทัวร์</label>
+    <select name="group-size" id="group-size">
+        <option value="small">กลุ่มเล็ก (10-15 คน)</option>
+        <option value="standard">กลุ่มมาตรฐาน (35-40 คน)</option>
+      </select>
+      <input type="checkbox" id="air-ticket" name="air-ticket" value="ticket">
+      <label for="air-ticket"> การซื้อบัตรโดยสารเครื่องบินเอง (Join Land)</label><br>
+      <label for="group-number">จำนวนผู้ร่วมเดินทาง(ระบุได้เฉพาะตัวเลข)</label>
+      <input type="number" id="group-number" name="quantity" min="1" max="40" step="1" placeholder="ตัวเลขเท่านั้น(1-40)">
+      <label for="contact-person">ชื่อผู้ติดต่อ</label>
+      <input type="text" id="contact-person" name="contact-person" placeholder="ex:นามสมชาย มีดี">
+      <label for="contact-number">เบอร์ผู้ติดต่อ</label>
+      <input type="tel" id="contact-number" name="contact-number" placeholder="ex:081-823-4567"></div>
+      <input type="submit" value="Submit">
+    </form>
+</body>
+
+</html>
